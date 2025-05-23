@@ -37,11 +37,11 @@ public class aluno {
         if (getMedia() >= 7 && getMedia() <= 10) {
             System.out.println("Parabéns você passou de ano, sua média foi:  "+ mediaFormatada);
         }
-        else if (getMedia() < 7 && getMedia() <= 0) {
+        else if (getMedia() < 7 && getMedia() >= 0) {
             System.out.println("Infelizmente você não passou, sua média foi: "+mediaFormatada);
         }
         else {
-            System.out.println("Sua média não é valida, tente denovo" + mediaFormatada);
+            System.out.println("Sua média não é valida, tente denovo");
         }
 
 
